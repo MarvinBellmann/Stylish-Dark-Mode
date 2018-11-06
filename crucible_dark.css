@@ -6,6 +6,8 @@ body {
 img,
 a.user,
 .aui-badge,
-.aui-icon {
+.aui-icon,
+span.frx-deleted,
+span.frx-added {
     filter: invert(88%);
 }
