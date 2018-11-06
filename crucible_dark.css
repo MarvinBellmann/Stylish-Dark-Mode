@@ -11,3 +11,11 @@ span.frx-deleted,
 span.frx-added {
     filter: invert(88%);
 }
+
+.diffContentA {
+    background-color: #eeeeee;
+}
+
+.hl_keyword {
+    color: #1263b5;   
+}
