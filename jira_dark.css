@@ -1,0 +1,32 @@
+body {
+    filter: invert(88%);
+    background-color: #1f1f1f !important;
+}
+
+#page
+img,
+.img-wrapper,
+span[role="img"],
+.ghx-grabber,
+.aui-header img {
+    filter: invert(88%);
+}
+
+#cp-container-1,
+.cp-viewer-layer,
+.cp-image-preview,
+.cp-image-container.cp-annotatable {
+	filter: invert(100%);
+}
+
+.ghx-swimlane .ghx-busted-max {
+	background: #4cb6bf !important;   
+}
+
+.ghx-issue.ghx-flagged {
+	background: #99bcde;   
+}
+
+.ghx-column-headers .ghx-column.ghx-busted-max {
+    border-bottom-color: #4cb6bf !important; 
+}
