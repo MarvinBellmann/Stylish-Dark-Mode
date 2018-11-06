@@ -16,6 +16,7 @@ span.frx-added {
     background-color: #eeeeee;
 }
 
-.hl_keyword {
+.hl_keyword,
+.hl_starttag {
     color: #1263b5;   
 }
