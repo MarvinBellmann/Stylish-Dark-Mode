@@ -13,10 +13,27 @@ span.frx-added {
 }
 
 .diffContentA {
-    background-color: #eeeeee;
+    background-color: #eeeeee !important;
 }
 
 .hl_keyword,
 .hl_starttag {
-    color: #1263b5;   
+    color: #1263b5 !important;   
+}
+
+.aui-header {
+    background-color: #ececec !important;
+    border-bottom-color: #ececec !important;
+}
+
+.aui-nav li a {
+    color: #1f1f1f !important;
+}
+
+.aui-nav-link.aui-dropdown2-trigger {
+    color: #1f1f1f !important;
+}
+
+.app-switcher-trigger span.aui-iconfont-appswitcher {
+    color: #1f1f1f !important;
 }
