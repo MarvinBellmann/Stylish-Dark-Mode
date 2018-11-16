@@ -1,0 +1,16 @@
+body {
+
+    filter: invert(88%);
+
+    background-color: #1f1f1f !important;
+
+}
+
+img,
+[data-resource-id^="brandFlex"]>:first-child {
+    filter: invert(88%);
+}
+
+[data-resource-id^="brandFlex"]>:first-child {
+    background-image: linear-gradient(-130.5deg, #000000 27px, #ffb300 0);
+}
