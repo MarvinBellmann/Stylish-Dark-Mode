@@ -1,0 +1,10 @@
+body {
+ filter: invert(88%);
+ background-color: #1f1f1f !important;
+}
+
+#header, .build-caption.page-headline img, .build-status-link, .job-status-blue td img, .job-status-red td img, .job-status-blue-anime td img, .job-status-red-anime td img,
+.icon-health-00to19, .icon-health-20to39, .icon-health-40to59, .icon-health-60to79, .icon-health-80plus,
+.icon-clock, .icon-clock-anime, .task-icon-link, .icon-stop {
+ filter: invert(88%) !important;
+}
