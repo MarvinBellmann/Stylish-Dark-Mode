@@ -19,14 +19,27 @@ img,
     filter: invert(88%);
 }
 
+[data-resource-type='BefundGebiss'],
+.ds4_BefundZahnSingleView {
+    filter: invert(100%);
+    background-color: #000;
+}
+
+div[data-resource-id^='BefundEingabePanelButtonView'] canvas {
+    filter: invert(95%);
+    background-color: #000;
+}
+
 .has-warning .form-control,
 .has-success .form-control {
     background-color: #000;
     filter: invert(100%);
 }
 
-.ds-datebox-input,
-.ds-datebox-input-xl {
+.has-warning .ds-datebox-input,
+.has-warning .ds-datebox-input-xl,
+.has-success .ds-datebox-input,
+.has-success .ds-datebox-input-xl {
     filter: invert(100%);
 }
 
