@@ -8,6 +8,9 @@ body {
 
 img,
 .label-warning,
+.label-danger,
+.label-success,
+.text-danger,
 .text-warning,
 .text-success,
 .text-info,
@@ -15,6 +18,7 @@ img,
 .ds-workflow-step-secondary.ds-selected,
 .has-warning .form-control,
 .has-success .form-control,
+.has-danger .form-control,
 [data-resource-id^="brandFlex"]>:first-child {
     filter: invert(88%);
 }
@@ -31,7 +35,8 @@ div[data-resource-id^='BefundEingabePanelButtonView'] canvas {
 }
 
 .has-warning .form-control,
-.has-success .form-control {
+.has-success .form-control,
+.has-danger .form-control {
     background-color: #000;
     filter: invert(100%);
 }
