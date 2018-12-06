@@ -47,3 +47,26 @@ span[role="img"],
 .app-switcher-trigger span.aui-iconfont-appswitcher {
     color: #1f1f1f !important;
 }
+
+.aui-lozenge.aui-lozenge-subtle.jira-issue-status-lozenge-green, 
+.aui-lozenge-success.aui-lozenge-subtle {
+    background-color: #ececec !important;
+    border-color: #f278f9 !important;
+    color: #f278f9 !important;
+}
+
+.aui-lozenge.aui-lozenge-subtle.jira-issue-status-lozenge-blue-gray {
+    background-color: #ececec !important;
+    border-color: #f4892c !important;
+    color: #f4892c !important;
+}
+
+.aui-lozenge.aui-lozenge-subtle.jira-issue-status-lozenge-yellow {
+    background-color: #ececec !important;
+    border-color: #747ffc !important;
+    color: #747ffc !important;
+}
+
+.subtask-done {
+    filter: invert(88%);
+}
