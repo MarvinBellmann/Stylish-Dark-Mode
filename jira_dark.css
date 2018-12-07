@@ -49,7 +49,8 @@ span[role="img"],
 }
 
 .aui-lozenge.aui-lozenge-subtle.jira-issue-status-lozenge-green, 
-.aui-lozenge-success.aui-lozenge-subtle {
+.aui-lozenge-success.aui-lozenge-subtle,
+.aui-lozenge.jira-issue-status-lozenge-green {
     background-color: #ececec !important;
     border-color: #f278f9 !important;
     color: #f278f9 !important;
