@@ -71,3 +71,8 @@ span[role="img"],
 .subtask-done {
     filter: invert(88%);
 }
+
+span[title="Versionshinweis"] {
+    -webkit-filter:  grayscale(100%) brightness(60%) sepia(100%) hue-rotate(-180deg) saturate(700%) contrast(2);
+    filter: grayscale(100%) brightness(60%) sepia(100%) hue-rotate(-180deg) saturate(700%) contrast(2);
+}
